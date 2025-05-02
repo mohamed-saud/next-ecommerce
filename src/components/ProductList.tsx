@@ -7,7 +7,7 @@ export default async function ProductList({
   categoryId,
   limit,
 }: {
-  categoryId: string;
+  categoryId: any;
   limit?: number;
 }) {
   const wixServer = await wixClientServer();
